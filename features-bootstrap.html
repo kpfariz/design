@@ -1,0 +1,115 @@
+<!-- Features Section - Bootstrap Compatible -->
+<section class="features-section py-5 bg-white">
+    <div class="container">
+        <!-- Features Header -->
+        <div class="row align-items-start mb-5">
+            <div class="col-lg-8">
+                <h3 class="features-subtitle text-warning mb-2">FEATURES</h3>
+                <h1 class="features-title display-4 fw-bold text-dark">Perfect Solution For<br>Your Business</h1>
+            </div>
+            <div class="col-lg-4 text-end">
+                <p class="text-muted mb-3">Let your customers explore</p>
+                <!-- Orange lined double rectangle image placeholder -->
+                <div class="features-image mx-auto me-lg-0">
+                    <img src="orange-rectangle.png" alt="Orange Rectangle Design" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Grid -->
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="feature-card h-100">
+                    <h4 class="feature-title h5 fw-semibold text-dark mb-3">
+                        <span class="text-decoration-underline text-warning">Wide</span> Fleet Selection
+                    </h4>
+                    <p class="feature-description text-muted">
+                        Wide Fleet Selection: Choose from economy, SUVs, luxury, and sports cars.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="feature-card h-100">
+                    <h4 class="feature-title h5 fw-semibold text-dark mb-3">
+                        <span class="text-decoration-underline text-warning">Wide</span> Fleet Selection
+                    </h4>
+                    <p class="feature-description text-muted">
+                        Wide Fleet Selection: Choose from economy, SUVs, luxury, and sports cars.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="feature-card h-100">
+                    <h4 class="feature-title h5 fw-semibold text-dark mb-3">
+                        <span class="text-decoration-underline text-warning">Wide</span> Fleet Selection
+                    </h4>
+                    <p class="feature-description text-muted">
+                        Wide Fleet Selection: Choose from economy, SUVs, luxury, and sports cars.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+/* Custom CSS for the features section */
+.features-subtitle {
+    color: #ff6b35 !important;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.features-title {
+    font-size: 2.8rem;
+    color: #2c3e50 !important;
+    line-height: 1.2;
+}
+
+.features-image {
+    width: 120px;
+    height: 80px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ff6b35;
+    position: relative;
+}
+
+.features-image::after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    border: 2px solid #ff6b35;
+    border-radius: 4px;
+}
+
+.feature-title .text-decoration-underline {
+    text-decoration-color: #ff6b35 !important;
+    text-decoration-thickness: 3px !important;
+    text-underline-offset: 3px !important;
+}
+
+@media (max-width: 768px) {
+    .features-title {
+        font-size: 2.2rem;
+    }
+    
+    .col-lg-4.text-end {
+        text-align: left !important;
+    }
+    
+    .features-image {
+        margin-left: 0 !important;
+    }
+}
+</style>
